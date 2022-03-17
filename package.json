@@ -1,0 +1,49 @@
+{
+  "name": "@strapi/provider-upload-s3",
+  "version": "1.0.0",
+  "description": "S3 provider for strapi upload",
+  "homepage": "https://github.com/oss4u/strapi-provider-upload-s3",
+  "keywords": [
+    "upload",
+    "s3",
+    "strapi"
+  ],
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "aws-sdk": "2.892.0",
+    "lodash": "4.17.21"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "name": "Marc Ende",
+    "url": "https://www.e-beyond.de",
+    "email": "me@e-beyond.de"
+  },
+  "maintainers": [
+    {
+      "name": "Marc Ende",
+      "url": "https://www.e-beyond.de",
+      "email": "me@e-beyond.de"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oss4u/strapi-provider-upload-s3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oss4u/strapi-provider-upload-s3/issues"
+  },
+  "engines": {
+    "node": ">=12.22.0 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
