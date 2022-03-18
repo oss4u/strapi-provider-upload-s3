@@ -1,5 +1,5 @@
 {
-  "name": "oss4u/strapi-provider-upload-s3",
+  "name": "@ebeyond/strapi-provider-upload-s3",
   "version": "1.0.0",
   "description": "S3 provider for strapi upload",
   "homepage": "https://github.com/oss4u/strapi-provider-upload-s3",
