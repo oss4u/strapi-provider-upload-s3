@@ -4,10 +4,10 @@ It's required to install this package with a different alias so that it belongs 
 
 ```bash
 # npm
-npm i @strapi/provider-upload-aws-s3@npm:@ebeyond/provider-upload-aws-s3
+npm i @strapi/provider-upload-aws-s3@npm:@ebeyond/strapi-provider-upload-s3
 
 # or yarn
-yarn add @strapi/provider-upload-aws-s3@npm:@ebeyond/provider-upload-aws-s3
+yarn add @strapi/provider-upload-aws-s3@npm:@ebeyond/strapi-provider-upload-s3
 
 ```
 
