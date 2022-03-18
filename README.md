@@ -1,13 +1,11 @@
 ## Installation
 
-It's required to install this package with a different alias so that it belongs to the @strapi scope.
-
 ```bash
 # npm
-npm i @strapi/provider-upload-aws-s3@npm:@ebeyond/strapi-provider-upload-s3
+npm i @ebeyond/strapi-provider-upload-s3
 
 # or yarn
-yarn add @strapi/provider-upload-aws-s3@npm:@ebeyond/strapi-provider-upload-s3
+yarn add @ebeyond/strapi-provider-upload-s3
 
 ```
 
@@ -26,7 +24,7 @@ module.exports = ({ env }) => ({
   // ...
   upload: {
     config: {
-      provider: 's3',
+      provider: '@ebeyond/strapi-provider-upload-s3',
       providerOptions: {
         accessKeyId: env('AWS_ACCESS_KEY_ID'),
         secretAccessKey: env('AWS_ACCESS_SECRET'),
