@@ -1,11 +1,14 @@
 ## Installation
 
-```bash
-# using yarn
-yarn add @strapi/provider-upload-aws-s3
+It's required to install this package with a different alias so that it belongs to the @strapi scope.
 
-# using npm
-npm install @strapi/provider-upload-aws-s3 --save
+```bash
+# npm
+npm i @strapi/provider-upload-aws-s3@npm:@oss4u/provider-upload-aws-s3
+
+# or yarn
+yarn add @strapi/provider-upload-aws-s3@npm:@oss4u/provider-upload-aws-s3
+
 ```
 
 ## Configurations
