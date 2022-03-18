@@ -54,8 +54,8 @@ module.exports = ({ env }) => [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', `${env('AWS_BUCKET')}.${env('AWS_ENDPOINT')}`],env('AWS_BUCKET')],
-          'media-src': ["'self'", 'data:', 'blob:', `${env('AWS_BUCKET')}.${env('AWS_ENDPOINT')}`],env('AWS_BUCKET')],
+          'img-src': ["'self'", 'data:', 'blob:', `${env('AWS_BUCKET')}.${env('AWS_ENDPOINT')}` ],
+          'media-src': ["'self'", 'data:', 'blob:', `${env('AWS_BUCKET')}.${env('AWS_ENDPOINT')}` ],
           upgradeInsecureRequests: null,
         },
       },
